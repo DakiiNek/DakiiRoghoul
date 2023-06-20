@@ -10,7 +10,7 @@ local get = setmetatable({}, {
     end
 })
 
-local tab1, tab2, tab3, tab4 = gui:AddTab("Chính"), gui:AddTab("Cài Đặ Farm"), gui:AddTab("Trainer"), gui:AddTab("Setting")
+local tab1, tab2, tab3, tab4 = gui:AddTab("Chính"), gui:AddTab("Cài Đặ Farm"), gui:AddTab("Trainer"), gui:AddTab("Khác"),
 local btn, btn2, btn3, key, nmc, trainers, labels
 local findobj, findobjofclass, waitforobj, fire, invoke = get.FindFirstChild, get.FindFirstChildOfClass, get.WaitForChild, Instance.new("RemoteEvent").FireServer, Instance.new("RemoteFunction").InvokeServer
 local player = get.Players.LocalPlayer
